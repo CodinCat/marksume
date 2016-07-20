@@ -1,0 +1,80 @@
+body {
+	border-top: 10px solid #51b3e2;
+	color: #333;
+	line-height: 1.72;
+}
+
+h2 {
+	margin-bottom: .6em;
+}
+
+h3 {
+	margin-bottom: .4em;
+}
+
+strong {
+	color: #111;
+}
+
+a {
+	color: #51b3e2;
+}
+
+hr {
+	background: #E3E3E3;
+}
+
+ul ul {
+	margin-top: 0;
+}
+
+.wrapper {
+	margin: 32px auto;
+	max-width: 720px;
+	width: 94%;
+}
+
+.end {
+	color: #bbb;
+	font-size: 18px;
+	font-style: italic;
+	letter-spacing: 1px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.control-panel {
+	bottom: 10px;
+	font-size: 22px;
+	position: fixed;
+	right: 10px;
+}
+
+.control {
+	color: #bbb;
+	cursor: pointer;
+	margin-right: 12px;
+}
+
+.control:hover {
+	color: #111;
+}
+
+.font-sans {
+	font-family: Roboto, 'Open Sans', sans-serif;
+}
+
+.font-serif, .font-serif h1, .font-serif h2, .font-serif h3, .font-serif h4, .font-serif h5, .font-serif h6 {
+	font-family: 'PT Serif', serif;
+}
+
+#source, #ascii {
+	display: none;
+}
+
+@media screen and (min-width: 760px) {
+	.control-panel {
+		bottom: 40px;
+		right: 60px;
+	}
+}
